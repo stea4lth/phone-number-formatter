@@ -1,3 +1,6 @@
+/* Must include inputmask.js */
+
+
 /** format phone numbers */
 var phones = [{ "mask": "(###) ###-####"}];
 $('#phone').inputmask({ 
