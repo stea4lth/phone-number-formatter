@@ -2,9 +2,9 @@
 
 
 /** format phone numbers */
-var phones = [{ "mask": "(###) ###-####"}];
+var phoneMask = [{ "mask": "(###) ###-####"}];
 $('.phone').inputmask({ 
-	mask: phones, 
+	mask: phoneMask, 
 	greedy: false, 
 	definitions: { '#': { validator: "[0-9]", cardinality: 1}}
 });
